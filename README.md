@@ -1,6 +1,7 @@
 # About Replica Folder Synchronization
 
-Short Python script to synchronize two folders, source and replica. The challenge was not to use a third-party library like rsync to implement the synchronization.
+Short Python script to synchronize two folders, source and replica. 
+The challenge was not to use a third-party library like rsync to implement the synchronization.
 
 Synchronizations works only one way and can be performed periodically. File and folder creation, copying and removal are logged into a logfile.
 
@@ -10,6 +11,8 @@ The script to perform a **single synchronization** is `sync_folders.py`.
 There is two versions of calling this synchronization **periodically**: 
 - In the script `sync_task_v1.py` the synchronization is performed periodically via a while loop. 
 - In the script `sync_task_v2.py` the synchronization is performed periodically via setting up a task in windows task scheduler.
+
+
 
 
 
