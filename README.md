@@ -43,7 +43,7 @@ This script has 3 required inputs:
 	
 
 
-**Synchronization periodically via a task in windows task**: The script `sync_task_v2.py` has 5 inputs of which 3 are required:
+**Synchronization periodically via a task in windows task scheduler**: The script `sync_task_v2.py` has 5 inputs of which 3 are required:
 
     - -s or --fld_src: Path to the source folder which is to be synchronized
     - -r or --fld_sync: Path to the replica folder
