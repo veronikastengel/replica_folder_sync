@@ -38,7 +38,7 @@ This script has 3 required inputs:
 	
 	optional parameters:
 	- -i or --interval: Interval of synchronizations in minutes, defaults to 1 minute
-	- -d or --duration: Duration of synchronizations in minutes, defaults to 1 day
+	- -d or --duration: Duration of synchronizations in minutes, defaults to 1 day (after which the script is finished)
 	
 	
 
@@ -51,4 +51,4 @@ This script has 3 required inputs:
 	
 	optional parameters:
 	- -i or --interval: Interval of synchronizations in minutes, defaults to 1 minute
-	- -d or --duration: Duration of synchronizations in minutes, defaults to 1 day
+	- -d or --duration: Duration of synchronizations in minutes, defaults to 1 day (after which the task stops being triggered, but still exists)
